@@ -1,9 +1,12 @@
-def sorter(L1, L2):
+def sorter(L1):
     #implementation not shown
     pass
 
-def main():
-    fruits = ["Apple", "Banana", "Cherry"]
-    vegetables = ["Asparagus", "Beetroot", "Carrot"]	
-    print(sorter(fruits, vegetables))
 
+def main():
+    farm_items= ["Apple", "Banana", "Cherry","Asparagus", "Beetroot", "Carrot"]
+   
+    print(sorter(farm_items))
+
+if __name__ == "__main__":
+    main()
